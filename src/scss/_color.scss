@@ -8,7 +8,15 @@ h1 h2{
 }
 
 hr{
-  width: 90%;
+  width: 100%;
   height:5px;
   background-color: $color-azul;
+  &.hrgris{
+    background-color: $color-gris-claro;
+  }
+}
+p{
+  &.fecha{
+    color:$color-gris-claro;
+  }
 }

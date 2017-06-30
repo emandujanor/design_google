@@ -3,6 +3,7 @@
 @import "color";
 $block:inline-block;
 $margin10:10px;
+$margin20:20px;
 $espacio-secciones:30px;
 $align-center:center;
 $align-left: left;
@@ -40,4 +41,14 @@ img{
     width:$img-icon;
     height:$img-icon;
   }
+}
+.espaciado-secciones{
+  margin-bottom:$espacio-secciones;
+}
+
+.col-izquierda{
+  margin-right:$margin20;
+}
+.col-derecha{
+  margin-left:$margin20;
 }
