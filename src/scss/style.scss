@@ -1,1 +1,43 @@
 @import "grid";
+@import "fuentes";
+@import "color";
+$block:inline-block;
+$margin10:10px;
+$espacio-secciones:30px;
+$align-center:center;
+$align-left: left;
+$align-right: right;
+$img-cien:100%;
+$img-icon:40px;
+
+
+nav{
+  margin-bottom:$espacio-secciones;
+  align-items: $align-center;
+  div{
+    align-items: $align-center;
+      a{
+      color:$color-grisOscuro;
+	    display:$block;
+	    margin-left:$margin10;
+      margin-right:$margin10;
+      text-decoration: none;
+      &:hover{
+        text-decoration:underline;
+
+      }
+    }
+
+  }
+}
+
+img{
+  &.imgCien{
+    width:$img-cien;
+    height: auto;
+  }
+  &.icono{
+    width:$img-icon;
+    height:$img-icon;
+  }
+}

@@ -1,0 +1,24 @@
+$font-menu: 'Roboto', sans-serif;
+$font-contenido:'Open Sans', sans-serif;
+$font-fechas:'Roboto Mono', monospace;
+$font-h:'Open Sans', sans-serif;
+$fontsize-menu:14px;
+$fontsize-h1:46px;
+$fontsize-h2:24px;
+nav{
+  div{
+    a{
+      font-family: $font-menu;
+      font-size: $fontsize-menu;
+    }
+  }
+}
+
+h1{
+  font-family: $font-h;
+  font-size: $fontsize-h1;
+}
+h2{
+  font-family: $font-h;
+  font-size: $fontsize-h2;
+}

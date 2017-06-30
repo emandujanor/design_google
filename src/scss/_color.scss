@@ -1,0 +1,14 @@
+$color-grisOscuro: #424242;
+$color-gris-claro:#5f6368;
+$color-gris-texto:#414549;
+$color-azul:#4285f4;
+
+h1 h2{
+  color:$color-grisOscuro;
+}
+
+hr{
+  width: 90%;
+  height:5px;
+  background-color: $color-azul;
+}

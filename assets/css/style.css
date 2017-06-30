@@ -90,4 +90,45 @@
 .offset-12 {
   margin-left: 100%; }
 
+nav div a {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px; }
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 46px; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px; }
+
+h1 h2 {
+  color: #424242; }
+
+hr {
+  width: 90%;
+  height: 5px;
+  background-color: #4285f4; }
+
+nav {
+  margin-bottom: 30px;
+  align-items: center; }
+  nav div {
+    align-items: center; }
+    nav div a {
+      color: #424242;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-decoration: none; }
+      nav div a:hover {
+        text-decoration: underline; }
+
+img.imgCien {
+  width: 100%;
+  height: auto; }
+img.icono {
+  width: 40px;
+  height: 40px; }
+
 /*# sourceMappingURL=style.css.map */
